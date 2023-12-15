@@ -1,0 +1,11 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: people_info
+  lables:
+    app: people_info
+spec:
+  containers:
+  - name: people_info
+    image:
