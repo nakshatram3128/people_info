@@ -10,6 +10,6 @@ app = web.Application()
 app.router.add_get('/', handle)
 app.router.add_get('/sample', sample)
 
+
 if __name__ == '__main__':
-    print("I am In")
     web.run_app(app, port=8998)
