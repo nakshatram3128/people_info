@@ -8,4 +8,4 @@ metadata:
 spec:
   containers:
   - name: people_info
-    image:
+    image: docker.io/nakshatram3128/people_info:v1
